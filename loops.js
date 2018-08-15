@@ -1,7 +1,7 @@
 function forLoop(array) {
-  for(let i = 0; i < 25; i++) {
-    var s = (i === 0)? '' : 's'
-    array.push("I am " + ${i}+ " strange loop" + ${s} + ".")
+  for(var i = 0; i < 25; i++) {
+    var s = "I am " + ${i} + " strange loop."
+    array.push()
   }
   return array
 }
