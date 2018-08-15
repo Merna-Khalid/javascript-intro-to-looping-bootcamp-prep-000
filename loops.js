@@ -18,5 +18,8 @@ function incrementVariable() {
   i = i + 1
 }
 function doWhileLoop(array) {
-  
+  do {
+    delete array[i]
+  } while(array.length > 0 && incrementVariable())
+  return array
 }
